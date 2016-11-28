@@ -1,0 +1,42 @@
+
+  /* carousel start */
+
+  /* Based on: http://www.bootply.com/59900 */
+html,body{
+  height:100%;
+}
+.carousel, .item, .active {
+  height: 100%;
+}
+.carousel-inner {
+  height: 100%;
+}
+.fill {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  padding: 0;
+  margin: 0 0 0 0; /* 25px 0 0 0 (start image after the nav bar) */
+  cursor: pointer;
+}
+.carousel-caption h3{
+  display: none; 				/* hide text on start */
+  animation-delay: 1s; 	/* text delay etc. 1s */
+}
+
+/*.text_over_bild{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  transform: translate(-50%);
+  font-size: 4rem;
+  color: red;
+
+  display: none; 				!* hide text on start *!
+  animation-delay: 1s; 	!* text delay etc. 1s *!
+}*/
+
+/* carousel end */
